@@ -1,0 +1,134 @@
+
+/** Product Designer Fonts **/
+@font-face {font-family: alegreya; src: url(../fonts/alegreya.ttf);}
+@font-face {font-family: cabin; src: url(../fonts/cabin.ttf);}
+@font-face {font-family: chewy; src: url(../fonts/chewy.ttf);}
+@font-face {font-family: chivo; src: url(../fonts/chivo.ttf);}
+@font-face {font-family: germania; src: url(../fonts/germania.ttf);}
+@font-face {font-family: lobsterOne; src: url(../fonts/lobster1.otf);}
+@font-face {font-family: lobsterTwo; src: url(../fonts/lobster2.otf);}
+@font-face {font-family: nunito; src: url(../fonts/nunito.ttf);}
+@font-face {font-family: schoolbell; src: url(../fonts/schoolbell.ttf);}
+@font-face {font-family: volkhorn; src: url(../fonts/volkhorn.otf);}
+@font-face {font-family: volkhorn; src: url(../fonts/GrandHotel-Regular.otf);}
+@font-face {font-family: volkhorn; src: url(../fonts/Boogaloo-Regular.otf);}
+@font-face {font-family: playball; src: url(../fonts/playball.ttf);}
+@font-face {font-family: saddlebag; src: url(../fonts/saddlebag.ttf);}
+@font-face {font-family: gauge; src: url(../fonts/gauge-heavy.ttf);}
+@font-face {font-family: averia; src: url(../fonts/averia-bold.ttf);}
+@font-face {font-family: medievalSharp; src: url(../fonts/MedievalSharp-Bold.ttf);}
+@font-face {font-family: grandHotel; src: url(../fonts/GrandHotel-Regular.otf);}
+@font-face {font-family: boogaloo; src: url(../fonts/Boogaloo-Regular.otf);}
+
+
+/* Hide Manage Layers */
+/*.fpd-main-bar [data-context="layers"] { display: none !important; }*/
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-container {
+	width: 100%;
+}
+
+#clothing-designer {
+	width: 68% !important;
+	/*float: right;*/
+	margin: 0 auto;
+}
+
+#options-form {
+	clear: both;
+}
+
+.fpd-main-bar .fpd-more {
+  display: none;
+}
+
+.fpd-context-dialog {
+	/*display: block !important;*/
+	top: 0 !important;
+	/*bottom: 0 !important;*/
+	left: 10% !important;
+	width: 25% !important;
+	/*float: left !important;*/
+}
+
+#clothing-designer,
+.fpd-context-dialog {
+	border: 7px solid #c0ab8f;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.fpd-context-dialog > .fpd-dialog-head {
+	cursor: inherit;
+}
+
+.fpd-primary-bg-color {
+	background-color: #dad1c5 !important;
+}
+
+.fpd-secondary-bg-color {
+	background-color: #6e64e5 !important;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+	float: left;
+}
+
+hr {
+	clear: both;
+}
+
+.sign-price {
+	color: #6e64e5;
+	margin-right: 40px;
+	font-size: 30px;
+	float: left;
+}
+
+label {
+	line-height: 43px;
+	margin: 0 20px 0 10px;
+	font-weight: 400;
+}
+
+label[for=order_quantity] {
+	margin-left: 10px;
+}
+
+input[name=order_quantity] {
+	width: 3%;
+	text-align: center;
+}
+
+label[for='sides'],
+label[for='texture'] {
+	font-weight: 700;
+}
+
+.required {
+	color: #d9534f;
+}
+
+.btn-success {
+	color: #FFF;
+	background-color: #6e64e5;
+	border-color: #c0ab8f;
+}
+
+.btn-success a {
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.btn-success a:hover {
+	text-decoration: none;
+}

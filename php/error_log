@@ -1,0 +1,4 @@
+[16-Jun-2015 18:33:30 UTC] PHP Fatal error:  Call to undefined method stdClass::update() in /home/myname/public_html/sign-builder/php/test.php on line 31
+[16-Jun-2015 19:42:25 UTC] PHP Fatal error:  Call to undefined method stdClass::update() in /home/myname/public_html/sign-builder/php/test.php on line 32
+[16-Jun-2015 19:52:08 UTC] PHP Fatal error:  Call to undefined method stdClass::update() in /home/myname/public_html/sign-builder/php/test.php on line 32
+[16-Jun-2015 19:52:41 UTC] PHP Fatal error:  Call to undefined method stdClass::update() in /home/myname/public_html/sign-builder/php/test.php on line 32
